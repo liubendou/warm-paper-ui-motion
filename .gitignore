@@ -1,0 +1,29 @@
+# 依赖与缓存
+node_modules/
+.venv/
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# 本地配置与凭据
+.env
+.env.*
+!.env.example
+*.log
+cloud.local.json
+*.pem
+*.p12
+*.pfx
+*.lic
+private_key.xml
+
+# 数据
+data/
+*.db
+*.db-wal
+*.db-shm
+
+# 系统
+.DS_Store
+Thumbs.db
